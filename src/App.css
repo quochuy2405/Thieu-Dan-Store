@@ -6,5 +6,13 @@
 body{
     font-size: 1.1rem;
     font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
-    
+
+}
+@media screen and (max-width: 600px) {
+    .App .Header .nav_link{
+        display: none;
+    }
+    .App .Header .img_logo{
+        display: none;
+    }
 }
