@@ -8,11 +8,25 @@ body{
     font-family:"Trebuchet MS",Arial,sans-serif;
 
 }
+@media screen and (max-width: 900px) {
+    .App .Header .search .input_search{
+        width: 90%;
+    }
+    .App .Header .nav_link{
+        display: none;
+    }
+    .App .ListItem{
+        grid-template-areas: "h1 h1";
+    }
+}
 @media screen and (max-width: 600px) {
     .App .Header .nav_link{
         display: none;
     }
     .App .Header .img_logo{
         display: none;
+    }
+    .App .ListItem{
+        grid-template-areas: "h1";
     }
 }
