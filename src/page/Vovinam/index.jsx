@@ -1,9 +1,11 @@
 import React from 'react';
+import Header from './../../components/Header/index';
 
 function Vovinam(props) {
     return (
         <div>
-            Vovinam
+            <Header/>
+            <h1>Vovinam</h1>
         </div>
     );
 }

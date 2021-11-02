@@ -8,11 +8,11 @@ const List_Link = [
   },
   {
     Name_Link: "Shop",
-    Link: "/taekwondo",
+    Link: "/shop",
   },
   {
     Name_Link: "Infomation",
-    Link: "/taekwondo",
+    Link: "/info",
   },
   {
     Name_Link: "Taekwondo",
@@ -34,7 +34,7 @@ function Header(props) {
       <div className="nav_link">
       
         {List_Link.map((item, index) => (
-          <NavLink to={item.Link} key={index}>
+          <NavLink to={item.Link} key={index} exact>
             <li className="link_item" >{item.Name_Link}</li>
           </NavLink>
         ))}
