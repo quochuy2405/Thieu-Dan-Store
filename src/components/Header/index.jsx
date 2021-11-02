@@ -22,10 +22,7 @@ const List_Link = [
     Name_Link: "Vovinam",
     Link: "/vovinam",
   },
-  {
-    Name_Link: "Khác",
-    Link: "/orderpage",
-  },
+
 ];
 function Header(props) {
   return (
