@@ -10,10 +10,7 @@ const List_Link = [
     Name_Link: "Shop",
     Link: "/shop",
   },
-  {
-    Name_Link: "Infomation",
-    Link: "/info",
-  },
+
   {
     Name_Link: "Taekwondo",
     Link: "/taekwondo",
@@ -21,6 +18,10 @@ const List_Link = [
   {
     Name_Link: "Vovinam",
     Link: "/vovinam",
+  },
+  {
+    Name_Link: "Infomation",
+    Link: "/info",
   },
 
 ];

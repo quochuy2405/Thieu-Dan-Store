@@ -8,9 +8,40 @@ body{
     font-family:"Trebuchet MS",Arial,sans-serif;
 
 }
+@media screen and (max-width: 1024px) {
+    .App .Header .img_logo {
+    padding: 10px;
+    }
+    .App .Header .search{
+        margin: 0 63px 0 0;
+    }
+    .App .Header .nav_icon{
+        right: 55px;
+
+    }
+    .App .Header{
+        gap: 30px;
+        padding: 0 80px  ;
+    }
+    .App .Header .nav_link{
+        gap: 25px;
+    }
+}
 @media screen and (max-width: 900px) {
     .App .Header .search .input_search{
-        width: 90%;
+        width: 100%;
+       
+    
+    }
+    .App .Header .nav_icon{
+        right: 50px;
+        top:50%;
+        
+    }
+    .App .Header .search  {
+        
+        width: 100%;
+        margin: 0 20px;
     }
     .App .Header .nav_link{
         display: none;
@@ -26,7 +57,19 @@ body{
     .App .Header .img_logo{
         display: none;
     }
+    .App .Header {
+  
+        padding: 20px 60px;
+    }
+    .App .Header .nav_icon{
+        right: 25px;
+        top:50%;
+        
+    }
     .App .ListItem{
+        padding: 40px;
+        width: 100%;
         grid-template-areas: "h1";
+        gap: 40px;
     }
 }
