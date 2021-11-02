@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 body{
-    font-size: 1.1rem;
-    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-family:"Trebuchet MS",Arial,sans-serif;
 
 }
 @media screen and (max-width: 600px) {
