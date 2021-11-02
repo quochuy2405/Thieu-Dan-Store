@@ -25,23 +25,31 @@
       border-radius: 30px;
       outline: none;
       // border: none;
-     transition: all ease-out .3s;
+     transition: all ease-out .4s;
 
     }
    
-    & .fa-search{
+    & .search_icon{
       line-height: 120px;
       position: absolute;
+      width:25px ;
+      height:25px ;
+      top: 50%;
+      transform: translateY(-50%);
       right: 15px;
       opacity: 0.7;
-    
+      &.fa-bars
+      {
+        position: absolute;
+        right: -40px;
+      }
       &:hover{
         opacity: 1;
       }
      
      
     }
-  }
+   }
   & .img_logo{
     height: 90%;
     border-radius: 50%;
