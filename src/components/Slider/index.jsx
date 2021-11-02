@@ -5,9 +5,9 @@ function Slider(props) {
    useEffect(()=>{
     $('.sliders_item img:gt(0)').hide();
 	var time=setInterval(function(){
-      $('.sliders_item :first-child').fadeOut(2000) //FadeOut là ảnh đang hiện
-      .next('img').fadeIn("slow") //fadeIn ảnh tiếp theo
-      .end().appendTo('.sliders_item'); // chuyển vị trí ảnh xuống cuối
+      $('.sliders_item :first-child').fadeOut(2000) 
+      .next('img').fadeIn(1000) 
+      .end().appendTo('.sliders_item'); 
   	}, 5000);
       return()=>clearInterval(time)
    },[]
